@@ -1,3 +1,3 @@
 #!/bin/bash
-python -c 'import this'
+python3 -c 'import this'
 
