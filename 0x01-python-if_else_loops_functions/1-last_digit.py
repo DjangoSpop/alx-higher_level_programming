@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import random
 
 # You mentioned not to touch the line below.
