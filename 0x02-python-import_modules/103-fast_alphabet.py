@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print((chr(65) + chr(91)).encode().decode('ascii')[1:-1])
+import string
+print(string.ascii_uppercase)
