@@ -1,38 +1,26 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def list_division(my_list_1, my_list_2, list_length):
-    result = []  # Initialize an empty list to store division results
-
-    try:
-        for i in range(list_length):
-            try:
-                # Try to convert elements to float and perform division
-                num1 = float(my_list_1[i])
-                num2 = float(my_list_2[i])
-
-                if num2 == 0:
-                    # Check for division by zero
-                    result.append(0)
-                    print("division by 0")
-                else:
-                    result.append(num1 / num2)
-            except (ValueError, TypeError):
-                # Handle invalid types
-                result.append(0)
-                print("wrong type")
-            except IndexError:
-                # Handle list length issues
-                result.append(0)
-                print("out of range")
-    except ZeroDivisionError:
-        # Handle unexpected division by zero errors
-        pass
-    finally:
-        return result
-
-# Example usage:
-list1 = [1, 2, "3", 4]
-list2 = [2, 0, 5, "6"]
-length = 4
-
-result_list = list_division(list1, list2, length)
-print(result_list)
+    """Divides two lists element by element.
+    Args:
+        my_list_1 (list): The first list.
+        my_list_2 (list): The second list.
+        list_length (int): The number of elements to divide.
+    Returns:
+        A new list of length list_length containing all the divisions.
+    """
+    new_list = []
+    for i in range(0, list_length):
+        try:
+            div = my_list_1[i] / my_list_2[i]
+        except TypeError:
+            print("wrong type")
+            div = 0
+        except ZeroDivisionError:
+            print("division by 0")
+            div = 0
+        except IndexError:
+            print("out of range")
+            div = 0
+        finally:
+            new_list.append(div)
+    return (new_list)
