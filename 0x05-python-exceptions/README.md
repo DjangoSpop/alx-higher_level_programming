@@ -1,0 +1,2 @@
+we can do anything in life if we have will and can do it nor programming is so hard but we can learn anything humans is unstobable 
+we will learn how we handle exeption in python and errors lets do this 
