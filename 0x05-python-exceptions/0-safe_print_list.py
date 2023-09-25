@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def safe_print_list(my_list=[], x=0):
     count = 0  # Initialize a count to keep track of printed elements
     
