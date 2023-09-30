@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-class square:
-    square= __import__(0-square).Square
-    my_square = Square()
-    print(type(my_square))
-    print(my_square.__dict__)
-    
+# 0-square.py by Ehoneah Obed
+"""Defines a square """
+
+
+class Square:
+    """Does nothing"""
+    pass
