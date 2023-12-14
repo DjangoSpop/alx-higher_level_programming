@@ -1,11 +1,9 @@
-//write a script that prints adition of two integer 
-// the first argument is the first integer 
-//secound argument is the second 
-//you must use console.log
-//you are not allowed to use var 
+#!/usr/bin/node
+const a = process.argv[2];
+const b = process.argv[3];
 
-
-function add(a,b){
-    return a+b;
+function add (a, b) {
+  return (a + b);
 }
-console.log(add(parseInt(process.argv[2]),parseInt(process.argv[3])));
+
+console.log(add(parseInt(a), parseInt(b)));
