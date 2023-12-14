@@ -1,0 +1,1 @@
+we will explain and dive more into the java script mthdolgies and closure also the inheritance and how the runtime variable implmentations also the function scoop and createing a state of art application by this wondorful scripting languge
