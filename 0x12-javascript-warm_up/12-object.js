@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const obj = {
     value: 12
 };
