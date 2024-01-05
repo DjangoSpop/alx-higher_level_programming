@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# MariaDB credentials
+MYSQL_USER="your_mariadb_user"
+MYSQL_PASSWORD="your_mariadb_password"
+
+# MariaDB command to list databases
+mysql -u$MYSQL_USER -p$MYSQL_PASSWORD -e "SHOW DATABASES;"
