@@ -1,6 +1,4 @@
 #!/usr/bin/node
-const obj = {
-    value: 12
 const myObject = {
   type: 'object',
   value: 12
